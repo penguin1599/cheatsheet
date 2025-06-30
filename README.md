@@ -39,8 +39,10 @@ git commit -m "this is my 2nd commit"
 
 🔍 View Git History			
 ```bash
-git log
-git log --stat
+git log                     # detailed history
+git log --oneline --graph --all
+git log --stat              # summary with files changed
+
 ```
 
 🌱 Create and Switch Branches		 
