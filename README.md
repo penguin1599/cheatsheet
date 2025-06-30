@@ -94,3 +94,22 @@ git status
 ```bash
 git clone https://github.com/USERNAME/REPO.git
 ```
+
+
+🔀 Merging Branches
+```bash
+git checkout main
+git merge branch1
+# If conflict:
+# 1. Manually resolve conflicts in files
+# 2. git add <file>
+# 3. git commit -m "resolved conflict"
+```
+
+🔎 Compare Changes
+```bash
+git diff                      # unstaged vs working dir
+git diff --staged            # staged vs last commit
+git diff master..branch1     # compare two branches
+# 3. git commit -m "resolved conflict"
+```
